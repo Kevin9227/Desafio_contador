@@ -1,4 +1,4 @@
-function startTimer(duration, display,dt) {
+/* function startTimer(duration, display,dt) {
     var timer = duration, minutes, seconds;
     dt= new Date();
     setInterval(function () {
@@ -18,4 +18,16 @@ window.onload = function () {
         document.getElementById('#tst').innerHTML= data.getFullYear() ;
     startTimer(duration, display); // iniciando o timer
 };
+ */
 
+//VARIAVES (Var,Let, const)
+
+var a =7;
+let b=5;
+const c = a +b;
+Function txt(a,b);{
+    a=1;
+    b=2;
+    c=a+b
+}
+console.log(c)
